@@ -1,0 +1,10 @@
+# Ignore the virtual environment
+venv/
+__pycache__/
+
+# Ignore local databases and personal logs
+bot_config.json
+message_log.json
+
+# Ignore environment variables (where we will hide the token)
+.env
